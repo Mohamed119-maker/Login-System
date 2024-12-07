@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="./img/295128.png">
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/login.css">
+</head>
+
+<body>
+
+    <section class="sign-in mx-auto shadow-lg text-center py-5">
+        <div class="container">
+            <div class="row">
+                <h1>Smart Login System</h1>
+                <input id="login-email" class="form-control my-3 " type="email" placeholder="Enter your email">
+                <input id="login-pass" class="form-control my-3 " type="password" placeholder="Enter your password">
+                <span id="alert" class="py-2 text-danger d-none">All inputs is required</span>
+                <span id="error" class="pb-2 text-danger d-none">
+                    Incorrect Email Or Password ,
+                    Please Sign Up if you don't have account
+                </span>
+                <button id="login-btn" class="btn btn-outline-info m-auto"> Login</button>
+                <p class="py-2 text-white">Don’t have an account?<a id="signUp" href="signUp.html">
+                        Sign Up</a></p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/login.js"></script>
+</body>
+
+</html>

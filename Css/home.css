@@ -1,0 +1,27 @@
+:root {
+    --main-color: #0080ff;
+}
+
+body {
+    background-color: #142834;
+}
+
+section .container {
+    background-color: #142834;
+}
+
+section {
+    height: 80vh;
+}
+
+.navbar {
+    background-color: #142834 !important;
+}
+
+.navbar .navbar-brand {
+    color: var(--main-color);
+}
+
+.home h1 {
+    color: var(--main-color);
+}

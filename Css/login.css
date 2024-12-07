@@ -1,0 +1,50 @@
+:root {
+    --main-color: #0080ff;
+}
+
+body {
+    background-color: #142834;
+}
+
+.sign-in {
+    width: 55%;
+    background-color: #142834;
+    margin-top: 7rem;
+}
+
+.sign-in h1 {
+    color: var(--main-color);
+}
+
+.sign-in input {
+    width: 90%;
+    margin: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid var(--main-color);
+}
+
+.sign-in button {
+    width: 90%;
+}
+
+.btn-outline-info {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.btn-outline-info:hover {
+    background-color: var(--main-color);
+    color: white !important;
+}
+
+.sign-in p a {
+    text-decoration: none;
+    color: var(--main-color) !important;
+}
+
+.sign-in p a:hover {
+    text-decoration: underline !important;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="img/295128.png">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/signUp.css">
+</head>
+
+<body>
+    <section class="sign-up mx-auto shadow-lg text-center py-5">
+        <div class="container">
+            <div class="row">
+
+                <h1>Smart Login System</h1>
+                <input id="name" class="form-control my-3 " type="text" placeholder="Enter your name">
+                <input id="user-email" class="form-control my-3 " type="email" placeholder="Enter your email">
+                <input id="user-pass" class="form-control my-3 " type="password" placeholder="Enter password 123...">
+
+                <span id="error" class="py-3 text-danger d-none">All inputs is required</span>
+                <span id="success" class="d-none py-1 text-success">Success</span>
+                <span id="reapeted-email" class=" d-none py-1 text-danger">email already exists</span>
+
+                <button id="sign-up-btn" class="btn btn-outline-info m-auto"> Sign Up</button>
+                <p class="py-2 text-white">You have an account?<a id="signIn" href="index.html">
+                        Sign in</a></p>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/signUp.js"></script>
+</body>
+
+</html>
